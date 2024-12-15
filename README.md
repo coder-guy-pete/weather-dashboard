@@ -5,7 +5,7 @@
 
 ## Description
 
-  A weather dashboard application that calls the OpenWeather API and renders data in the browser.
+  A weather dashboard application that calls the OpenWeather API and renders data in the browser. It allows a user to look up the current weather and a five day forecast for a specified city.
 
 ## Table of Contents
 
@@ -23,6 +23,8 @@ This project relies on the following dependencies:
 
 * **Express.js**: Used for building the web application
 * **Day.js**: Used for date and time manipulation
+* **Bootstrap**: Used to style the application
+* **FontAwesome**: Used to import fonts
 
 ## Installation
 
@@ -41,6 +43,8 @@ This will allow you to test and deploy changes locally without impacting the liv
 
 ## Usage
 
+![Screenshot](images/overview.png)
+
 ### Core Functionality
 
 * Get the current weather for a city by searching for the city by name
@@ -48,6 +52,8 @@ This will allow you to test and deploy changes locally without impacting the liv
 * Store a search history of cities you searched for in the past
 * Get the weather of cities in your search history
 * Remove cities from your search history
+
+The application is hosted on Render here: <https://weather-dashboard-wpxv.onrender.com/>
 
 ## Contributing
 
